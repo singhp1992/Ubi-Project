@@ -12,4 +12,11 @@ public class StudentController {
         return "List of all Students!";
 
     }
+
+    @RequestMapping("/")
+    @ResponseBody
+    public String home() {
+        return "Home Page";
+
+    }
 }
