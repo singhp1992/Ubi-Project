@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8" />
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" th:href="@{/app.css}" />
+    <title>Students</title>
+</head>
+<body>
+    <div class="navbar-fixed">
+        <nav>
+            <div class="container">
+                <ul class="options">
+                    <li><a th:href="@{/}">Home</a></li>
+                    <li class="active"><a th:href="@{/students}">Students</a></li>
+                    <li><a th:href="@{/mentors}">Mentors</a></li>
+                    <li><a th:href="@{/courses}">Courses</a></li>
+                    <li><a th:href="@{/content}">Course Content</a></li>
+                </ul>
+            </div>
+        </nav>
+    </div>
+
+    <div class="content">
+        <p class="intro">All Students</p>
+    </div>
+
+    <div class="foot">
+        <footer>Made by Preeti Singh</footer>
+    </div>
+</body>
+</html>
