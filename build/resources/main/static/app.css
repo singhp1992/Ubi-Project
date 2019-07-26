@@ -5,14 +5,18 @@ body {
 }
 
 .navbar-fixed .container {
+    top: 0;
+    right: 0;
+    position: fixed;
+    left: 0;
     display: flex;
     justify-content: space-between;
     align-items: center;
     height: 70px;
     width: 100%;
     background: cornflowerblue;
-    border-radius: 5px;
     box-shadow: 5px 5px 50px -10px #b6b6b6;
+    z-index: 10;
 }
 
 .options {
@@ -38,7 +42,21 @@ a:hover {
 }
 
 .content {
-    margin: auto;
+    margin: 100px auto 0;
     width: 95%;
+    height: 1000px;
+    /* height just for scrolling */
+}
+
+footer {
+   position: fixed;
+   left: 0;
+   bottom: 0;
+   width: 100%;
+   background-color: cornflowerblue;
+   color: white;
+   text-align: center;
+   padding: 5px;
+   font-size: smaller;
 }
 
