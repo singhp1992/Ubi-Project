@@ -5,12 +5,23 @@ body {
 }
 
 .navbar-fixed .container {
-    padding-left: 1.5rem;
-    padding-right: 1.5rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    min-height: 100px;
+    min-width: 100%;
+    background: white;
+    border-radius: 5px;
+    box-shadow: 5px 5px 50px -10px #b6b6b6;
 }
 
 .options {
     list-style: none;
+    display: flex;
+}
+
+.options li {
+    margin-right: 20px;
 }
 
 a {
