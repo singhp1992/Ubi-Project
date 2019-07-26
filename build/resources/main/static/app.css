@@ -10,7 +10,7 @@ body {
     align-items: center;
     min-height: 100px;
     min-width: 100%;
-    background: white;
+    background: cornflowerblue;
     border-radius: 5px;
     box-shadow: 5px 5px 50px -10px #b6b6b6;
 }
@@ -25,15 +25,15 @@ body {
 }
 
 a {
-    color: black;
+    color: white;
     text-decoration: none;
 }
 
 a:visited {
-    color: black;
+    color: white;
 }
 
 a:hover {
-    color: grey;
+    text-decoration: underline;
 }
 
