@@ -48,7 +48,7 @@ a:hover {
     /* height just for scrolling */
 }
 
-footer {
+.foot {
    position: fixed;
    left: 0;
    bottom: 0;
@@ -58,5 +58,10 @@ footer {
    text-align: center;
    padding: 5px;
    font-size: smaller;
+}
+
+.intro {
+    text-align: center;
+    font-size: x-large;
 }
 
