@@ -22,5 +22,5 @@ dependencies {
     compile group: 'org.springframework.boot', name: 'spring-boot-starter-web', version: '2.1.6.RELEASE'
     compile group: 'org.springframework.data', name: 'spring-data-jpa', version: '2.1.9.RELEASE'
     compile group: 'org.springframework.boot', name: 'spring-boot-starter-data-rest', version: '2.1.6.RELEASE'
-
+    testCompile group: 'com.h2database', name: 'h2', version: '1.4.199'
 }
