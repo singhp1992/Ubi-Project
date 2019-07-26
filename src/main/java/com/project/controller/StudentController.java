@@ -7,13 +7,13 @@ import org.springframework.web.bind.annotation.RequestMapping;
 public class StudentController {
     @RequestMapping("/")
     public String home() {
-        return "Home Page";
+        return "home";
 
     }
 
     @RequestMapping("/students")
     public String listStudents() {
-        return "List of all Students!";
+        return "students";
 
     }
 }
